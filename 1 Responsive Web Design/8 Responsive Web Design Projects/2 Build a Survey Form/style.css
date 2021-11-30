@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ), url("background.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#title {
+  margin: 50px 0 15px 0;
+  font-weight: 400;
+}
+
+#description {
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+
+#survey-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.fcc-label, .fcc-input {
+  margin: 0 45px;
+}
+
+.fcc-label {
+  margin-bottom: 10px;
+}
+
+.fcc-input {
+  margin-bottom: 30px;
+}
+
+input[type=text],input[type=email], input[type=number], select {
+  height: 40px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+input[type=radio], input[type=checkbox] {
+  margin: 0 10px 20px 0;
+}
+
+.last-input {
+  margin-bottom: 0;
+}
+
+textarea {
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#submit {
+  background-color: limegreen;
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  color: white;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style media="screen">
+    /* Placed here to pass FreeCodeCamp Tests */
+      #pricing {
+        align-items: stretch;
+        display: flex;
+        margin: 5% 16.67%;
+      }
+      @media (max-width: 544px) {
+        #pricing {
+          display: block;
+        }
+        #pricing div {
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+</head>
+
+<body>
+
+  <div class="page-wrapper">
+
+    <header id="header">
+      <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Company Logo">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#header">Features</a>
+        <a href="#howWorks" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <form id="form" class="container" action="https://www.freecodecamp.com/email-submit">
+      <h2>Handcrafted, Home-Made Masterpieces</h2>
+      <input name="email" type="email" id="email" placeholder="Enter your email address">
+      <br>
+      <input type="submit" id="submit" value="GET STARTED">
+    </form>
+
+    <ul id="howWorks">
+      <li>
+        <i class="fa fa-3x fa-fire icon"></i>
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+      </li>
+      <li>
+        <i class="fa fa-3x fa-truck icon"></i>
+        <h2>Fast Shipping</h2>
+        <p>We make sure receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      </li>
+      <li>
+        <i class="fa fa-3x fa-battery-full icon"></i>
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      </li>
+    </ul>
+
+    <center>
+      <iframe src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video">
+      </iframe>
+    </center>
+
+    <div id="pricing">
+      <div>
+        <h4>TENOR TROMBONE</h4>
+        <h2>$600</h2>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum</p>
+        <input type="submit" value="SELECT">
+      </div>
+      <div>
+        <h4>BASS TROMBONE</h4>
+        <h2>$900</h2>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum</p>
+        <input type="submit" value="SELECT">
+      </div>
+      <div style="margin-right: 0;">
+        <h4>VALVE TROMBONE</h4>
+        <h2>$1200</h2>
+        <p>Plays similar to a Trumpet</p>
+        <p>Great for Jazz Bands</p>
+        <p>Lorem ipsum dolor</p>
+        <p>Lorem ipsum</p>
+        <input type="submit" value="SELECT">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
